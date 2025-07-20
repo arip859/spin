@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spin Wheel Jagung</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Kedai Jagung Nurul Qolbi</h1>
+  <div class="wheel-container">
+    <canvas id="wheel" width="400" height="400"></canvas>
+    <div class="pointer"></div>
+  </div>
+  <button id="spin">Putar!</button>
+  <div id="result"></div>
+  <button id="retry" style="display:none;">Coba Lagi</button>
+  <audio id="end-sound" src="pop.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
